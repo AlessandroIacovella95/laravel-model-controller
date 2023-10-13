@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
-
-.card {
-    height: 250px;
-    margin-top: 15px;
+section {
+    .card {
+        height: 250px;
+        margin-top: 15px;
+        .custom {
+            font-size: 1.25rem;
+        }
+    }
 }
